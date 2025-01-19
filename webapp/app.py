@@ -10,7 +10,7 @@ CORS(app)
 
 # Load the model
 def load_model():
-    return keras.models.load_model('Malicious_URL_Prediction.h5')  # Adjusted path
+    return keras.models.load_model('webapp/Malicious_URL_Prediction.h5')  # Adjusted path
 
 model = load_model()
 
